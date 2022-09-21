@@ -36,3 +36,53 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.hero-banner{
+    background-color: #1f2937;
+    color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.hero-banner-text{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+    margin: 16px;
+}
+
+.hero-banner-text > h3 {
+    font-size: 48px ;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5px;
+
+}
+
+.hero-banner-text > p{
+    margin-left: 8px;
+}
+.hero-banner-text > button {
+    align-self: flex-start;
+    margin-left: 8px;
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-weight: 900;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.hero-banner > img {
+    width: 400px;
+    height: 250px;
+}
