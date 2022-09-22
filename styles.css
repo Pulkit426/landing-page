@@ -135,3 +135,32 @@ a{
     font-weight: 800;
     margin-left: 500px;
 }
+
+.cta-banner{
+    margin: 50px;
+    padding: 25px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.cta-heading{
+font-size: 24px;
+font-weight: 900;
+margin-bottom: -10px;
+}
+
+.cta-banner > button{
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 10px;
+}
