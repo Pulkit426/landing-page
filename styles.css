@@ -164,3 +164,11 @@ margin-bottom: -10px;
     border: 1px solid white;
     border-radius: 10px;
 }
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+}
